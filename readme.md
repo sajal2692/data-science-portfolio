@@ -5,7 +5,9 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 
 ## Contents
 - __Data Analysis and Visualisation__
-	- [Scalable Walkability Analysis of Melbourne](https://github.com/sajal2692/Scalable-Walkability-Analysis-of-Melbourne): Analysis of walkability of suburbs in Melbourne, Victoria and its implications. 
+	- [Scalable Walkability Analysis of Melbourne](https://github.com/sajal2692/Scalable-Walkability-Analysis-of-Melbourne): Analysis of walkability of suburbs in Melbourne, Victoria and its implications.
+	- [Titanic Dataset - Exploratory Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/Titanic%20Dataset%20-%20Exploratory%20Analysis.ipynb): Exploratory Analysis of the passengers onboard RMS Titanic using Pandas and Seaborn visualisations.
+
 
 	_Tools: Pandas, Folium, Seaborn and Matplotlib_
 - __Natural Language Processing__
