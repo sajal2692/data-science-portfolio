@@ -24,6 +24,7 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 	Series of basic ML projects dealing with a variety of ML algorithms and datasets.
 	- [ML with Linear Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Linear%20Regression.ipynb): Using Linear Regression to predict yearly spend for E-commerce customers.
 	- [ML with Logistic Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Logistic%20Regression.ipynb): Using Logistic Regression to predict whether an internet user clicked an ad or not.
+	- [ML with Support Vector Machines](): Using SVMs to classify flowers in the famous Iris data set. Also includes Parameter tuning using Grid Search.
 
 
 	_Tools: NLTK, scikit_
