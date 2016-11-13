@@ -21,6 +21,7 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 	- [ML with Logistic Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Logistic%20Regression.ipynb): Using Logistic Regression to predict whether an internet user clicked an ad or not.
 	- [ML with Support Vector Machines](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20with%20Support%20Vector%20Machines.ipynb): Using SVMs to classify flowers in the famous Iris data set. Also includes Parameter tuning using Grid Search.
 	- [ML with K Nearest Neighbours](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20with%20K%20Nearest%20Neighbors.ipynb): Using KNN to classify instances from a fake dataset into two target classes, while choosing the best value for K using the elbow method.
+	- [ML with Decision Trees and Random Forests](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Decision%20Trees%20and%20Random%20Forests.ipynb): Using Decision Trees and Random Forests to predict whether a lender will pay their loan back. Uses publically available data from LendingClub.com
 
 
 - __Natural Language Processing__
