@@ -15,8 +15,10 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 
 	- __R__ 
 		- [Behavioral Risk Factor Surveillance System(BRFSS) 2013: Exploratory Data Analysis](http://rpubs.com/sajal_sharma/brfss2013): Exploratory analysis of the BRFSS-2013 data set, focusing on investigating the relationship between education and eating habits, sleep and mental health, and smoking, drinking and general health of a person.  
+		- [Data Visualization: Corruption and Human Development](http://rpubs.com/sajal_sharma/corruption_viz): A scatter plot for the relationship between the 'Human Development Index' and the 'Corruption Perceptions Index' of countries.
+		- [Moneyball: Analysing and replacing lost players](http://rpubs.com/sajal_sharma/moneyball_lost_players): Exploration of baseball data for the year 2001 to look at replacements for key players lost by the Oakland A's in 2001. Inspired by the book/movie: Moneyball.
 	
-- __Machine Learning Micro Projects__
+- ### Machine Learning Micro Projects
 
 	Series of basic ML projects dealing with a variety of ML algorithms and datasets.
 	- [ML with Linear Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Linear%20Regression.ipynb): Using Linear Regression to predict yearly spend for E-commerce customers.
@@ -27,7 +29,7 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 	- [Movie Recommendations using Recommender Systems](https://github.com/sajal2692/data-science-portfolio/blob/master/Recommender%20Systems%20with%20Python.ipynb): A micro project to build a recommendation system that makes movie recommendations based on user review similarities. 
 
 
-- __Natural Language Processing__
+- ### Natural Language Processing
 
 	- [3-way Sentiment Analysis for Tweets](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
 
