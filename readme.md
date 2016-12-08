@@ -1,18 +1,20 @@
 # Data Science Portfolio
-Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of iPython Notebooks.
+Repository containing portfolio of data science projects completed by me for academic, self learning, and hobby purposes. Presented in the form of iPython Notebooks, and R markdown files (published at RPubs).
 
 _Note: Data used in the projects (accessed under data directory) is for demonstration purposes only._
 
 ## Contents
-- __Data Analysis and Visualisation__
-	- [Scalable Walkability Analysis of Melbourne](https://github.com/sajal2692/Scalable-Walkability-Analysis-of-Melbourne): Analysis of walkability of suburbs in Melbourne, Victoria and its implications.
-	- [Titanic Dataset - Exploratory Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/Titanic%20Dataset%20-%20Exploratory%20Analysis.ipynb): Exploratory Analysis of the passengers onboard RMS Titanic using Pandas and Seaborn visualisations.
-	- [Stock Market Analysis for Tech Stocks](https://github.com/sajal2692/data-science-portfolio/blob/master/Stock%20Market%20Analysis%20for%20Tech%20Stocks.ipynb): Analysis of technology stocks including change in price over time, daily returns, and stock behaviour prediction.
-	- [2016 US General Election Poll Data Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/2016%20General%20Election%20Poll%20Analysis.ipynb): Very simple analysis of 2016 US General Election Poll data.
-	- [911 Calls - Exploratory Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/911%20Calls%20-%20Exploratory%20Analysis.ipynb): Exploratory Data Analysis of the 911 calls dataset hosted on Kaggle. Demonstrates extraction of useful features from different variables. 
-
-
+- ### Data Analysis and Visualisation
+	- __Python__
+		- [Scalable Walkability Analysis of Melbourne](https://github.com/sajal2692/Scalable-Walkability-Analysis-of-Melbourne): Analysis of walkability of suburbs in Melbourne, Victoria and its implications.
+		- [Titanic Dataset - Exploratory Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/Titanic%20Dataset%20-%20Exploratory%20Analysis.ipynb): Exploratory Analysis of the passengers onboard RMS Titanic using Pandas and Seaborn visualisations.
+		- [Stock Market Analysis for Tech Stocks](https://github.com/sajal2692/data-science-portfolio/blob/master/Stock%20Market%20Analysis%20for%20Tech%20Stocks.ipynb): Analysis of technology stocks including change in price over time, daily returns, and stock behaviour prediction.
+		- [2016 US General Election Poll Data Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/2016%20General%20Election%20Poll%20Analysis.ipynb): Very simple analysis of 2016 US General Election Poll data.
+		- [911 Calls - Exploratory Analysis](https://github.com/sajal2692/data-science-portfolio/blob/master/911%20Calls%20-%20Exploratory%20Analysis.ipynb): Exploratory Data Analysis of the 911 calls dataset hosted on Kaggle. Demonstrates extraction of useful features from different variables. 
 	_Tools: Pandas, Folium, Seaborn and Matplotlib_
+
+	- __R__ 
+		- [Behavioral Risk Factor Surveillance System(BRFSS) 2013: Exploratory Data Analysis](http://rpubs.com/sajal_sharma/brfss2013): Exploratory analysis of the BRFSS-2013 data set, focusing on investigating the relationship between education and eating habits, sleep and mental health, and smoking, drinking and general health of a person.  
 	
 - __Machine Learning Micro Projects__
 
