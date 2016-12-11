@@ -34,12 +34,12 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 	Series of basic ML projects dealing with a variety of ML algorithms and datasets. Demonstrate applied ML knowledge.
 
 	- __Python__
-		- [ML with Linear Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Linear%20Regression.ipynb): Using Linear Regression to predict yearly spend for E-commerce customers.
-		- [ML with Logistic Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Logistic%20Regression.ipynb): Using Logistic Regression to predict whether an internet user clicked an ad or not.
-		- [ML with Support Vector Machines](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20with%20Support%20Vector%20Machines.ipynb): Using SVMs to classify flowers in the famous Iris data set. Also includes Parameter tuning using Grid Search.
-		- [ML with K Nearest Neighbours](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20with%20K%20Nearest%20Neighbors.ipynb): Using KNN to classify instances from a fake dataset into two target classes, while choosing the best value for K using the elbow method.
-		- [ML with Decision Trees and Random Forests](https://github.com/sajal2692/data-science-portfolio/blob/master/Machine%20Learning%20with%20Decision%20Trees%20and%20Random%20Forests.ipynb): Using Decision Trees and Random Forests to predict whether a lender will pay their loan back. Uses publically available data from LendingClub.com
-		- [Movie Recommendations using Recommender Systems](https://github.com/sajal2692/data-science-portfolio/blob/master/Recommender%20Systems%20with%20Python.ipynb): A micro project to build a recommendation system that makes movie recommendations based on user review similarities. 
+		- [ML with Linear Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/Machine%20Learning%20with%20Linear%20Regression.ipynb): Using Linear Regression to predict yearly spend for E-commerce customers.
+		- [ML with Logistic Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/Machine%20Learning%20with%20Logistic%20Regression.ipynb): Using Logistic Regression to predict whether an internet user clicked an ad or not.
+		- [ML with Support Vector Machines](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/ML%20with%20Support%20Vector%20Machines.ipynb): Using SVMs to classify flowers in the famous Iris data set. Also includes Parameter tuning using Grid Search.
+		- [ML with K Nearest Neighbours](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/ML%20with%20K%20Nearest%20Neighbors.ipynb): Using KNN to classify instances from a fake dataset into two target classes, while choosing the best value for K using the elbow method.
+		- [ML with Decision Trees and Random Forests](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/Machine%20Learning%20with%20Decision%20Trees%20and%20Random%20Forests.ipynb): Using Decision Trees and Random Forests to predict whether a lender will pay their loan back. Uses publically available data from LendingClub.com
+		- [Movie Recommendations using Recommender Systems](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/Recommender%20Systems%20with%20Python.ipynb): A micro project to build a recommendation system that makes movie recommendations based on user review similarities. 
 
 	- __R__
 		- [ML Logistic Regression](http://rpubs.com/sajal_sharma/micro_logistic): Predicting salary class of a person using logistic regression.
