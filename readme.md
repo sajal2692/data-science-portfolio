@@ -20,6 +20,15 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 		- [Data Visualization: Corruption and Human Development](http://rpubs.com/sajal_sharma/corruption_viz): A scatter plot for the relationship between the 'Human Development Index' and the 'Corruption Perceptions Index' of countries.
 		- [Moneyball: Analysing and replacing lost players](http://rpubs.com/sajal_sharma/moneyball_lost_players): Exploration of baseball data for the year 2001 to look at replacements for key players lost by the Oakland A's in 2001. Inspired by the book/movie: Moneyball.
 	
+- ### Natural Language Processing
+
+	- [3-way Sentiment Analysis for Tweets](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
+
+	- [Cross language Information Retrieval](https://github.com/sajal2692/data-science-portfolio/blob/master/Cross%20Language%20Information%20Retrieval.ipynb): Cross language information retrieval system (CLIR) which, given a query in German, searches text documents written in English.
+
+	_Tools: NLTK, scikit_
+
+
 - ### Machine Learning Micro Projects
 
 	Series of basic ML projects dealing with a variety of ML algorithms and datasets. Demonstrate applied ML knowledge.
@@ -35,12 +44,3 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 	- __R__
 		- [ML Logistic Regression](http://rpubs.com/sajal_sharma/micro_logistic): Predicting salary class of a person using logistic regression.
 		- [ML Decision Trees and Random Forests](http://rpubs.com/sajal_sharma/micro_dt_rf): Using Decision Trees and Random Forests to classify schools as Private or Public.
-
-
-- ### Natural Language Processing
-
-	- [3-way Sentiment Analysis for Tweets](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
-
-	- [Cross language Information Retrieval](https://github.com/sajal2692/data-science-portfolio/blob/master/Cross%20Language%20Information%20Retrieval.ipynb): Cross language information retrieval system (CLIR) which, given a query in German, searches text documents written in English.
-
-	_Tools: NLTK, scikit_
