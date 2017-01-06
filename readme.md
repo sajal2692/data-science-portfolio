@@ -32,7 +32,7 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 
 - ### Machine Learning
 
-	- [Predicting Boston Housing Prices through Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): Building a decision tree regressor to make predictions about a home's monetary value, given certain features, and the analysis of its performance.
+	- [Predicting Boston Housing Prices](https://github.com/sajal2692/data-science-portfolio/blob/master/boston_housing/boston_housing.ipynb): Building a decision tree regressor to make predictions about a home's monetary value, given certain features, and the analysis of its performance.
 
 	- ### Micro Projects
 
