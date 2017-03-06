@@ -42,9 +42,9 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 		- [Moneyball: Analysing and replacing lost players](http://rpubs.com/sajal_sharma/moneyball_lost_players): Exploration of baseball data for the year 2001 to look at replacements for key players lost by the Oakland A's in 2001. Inspired by the book/movie: Moneyball.
 	
 
-	- ### Micro Projects
+- ### Micro Projects
 
-	Series of basic ML projects dealing with a variety of ML algorithms and datasets. Demonstrate applied ML knowledge.
+Series of basic ML projects dealing with a variety of ML algorithms and datasets. Demonstrate applied ML knowledge.
 
 	- __Python__
 		- [ML with Logistic Regression](https://github.com/sajal2692/data-science-portfolio/blob/master/ML%20Micro%20Projects/Machine%20Learning%20with%20Logistic%20Regression.ipynb): Using Logistic Regression to predict whether an internet user clicked an ad or not.
