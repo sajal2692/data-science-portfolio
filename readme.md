@@ -60,6 +60,10 @@ I also dabble in all other kinds of technology. You can find a general portfolio
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at contact@sajalsharma.com. 
 
+### Python 2 to Python 3
+
+Currently, most (if not all) of the project notebooks use Python 2. I'm currently in the process of updating these to Python 3. Estimated time of completion of these updates is Q1 2022. Contributions for these version updates are welcome. :)
+
 ### Support My Work
 
 If this project inspired you, gave you ideas for your own portfolio or helped you, please consider [buying me a coffee](buymeacoffee.com/sajals) ❤️.   
