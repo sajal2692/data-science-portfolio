@@ -66,4 +66,4 @@ Currently, most (if not all) of the project notebooks use Python 2. I'm currentl
 
 ### Support My Work
 
-If this project inspired you, gave you ideas for your own portfolio or helped you, please consider [buying me a coffee](buymeacoffee.com/sajals) ❤️.   
+If this project inspired you, gave you ideas for your own portfolio or helped you, please consider [buying me a coffee](https://buymeacoffee.com/sajals) ❤️.   
