@@ -23,7 +23,7 @@ def distribution(data, transformed = False):
     """
     
     # Create figure
-    fig = pl.figure(figsize = (11,5));
+    fig = pl.figure(figsize = (17,8));
 
     # Skewed feature plotting
     for i, feature in enumerate(['capital-gain','capital-loss']):
@@ -60,7 +60,7 @@ def evaluate(results, accuracy, f1):
     """
   
     # Create figure
-    fig, ax = pl.subplots(2, 3, figsize = (11,7))
+    fig, ax = pl.subplots(2, 3, figsize = (15,11))
 
     # Constants
     bar_width = 0.3
@@ -72,11 +72,11 @@ def evaluate(results, accuracy, f1):
             for i in np.arange(3):
                 
                 # Creative plot code
-                ax[j/3, j%3].bar(i+k*bar_width, results[learner][i][metric], width = bar_width, color = colors[k])
-                ax[j/3, j%3].set_xticks([0.45, 1.45, 2.45])
-                ax[j/3, j%3].set_xticklabels(["1%", "10%", "100%"])
-                ax[j/3, j%3].set_xlabel("Training Set Size")
-                ax[j/3, j%3].set_xlim((-0.1, 3.0))
+                ax[j//4, j%3].bar(i+k*bar_width, results[learner][i][metric], width = bar_width, color = colors[k])
+                ax[j//4, j%3].set_xticks([0.45, 1.45, 2.45])
+                ax[j//4, j%3].set_xticklabels(["1%", "10%", "100%"])
+                ax[j//4, j%3].set_xlabel("Training Set Size")
+                ax[j//3, j%3].set_xlim((-0.1, 3.0))
     
     # Add unique y-labels
     ax[0, 0].set_ylabel("Time (in seconds)")
@@ -115,7 +115,6 @@ def evaluate(results, accuracy, f1):
     
     # Aesthetics
     pl.suptitle("Performance Metrics for Three Supervised Learning Models", fontsize = 16, y = 1.10)
-    pl.tight_layout()
     pl.show()
     
 
@@ -126,7 +125,7 @@ def feature_plot(importances, X_train, y_train):
     columns = X_train.columns.values[indices[:5]]
     values = importances[indices][:5]
 
-    # Creat the plot
+    # Create the plot
     fig = pl.figure(figsize = (9,5))
     pl.title("Normalized Weights for First Five Most Predictive Features", fontsize = 16)
     pl.bar(np.arange(5), values, width = 0.6, align="center", color = '#00A000', \
