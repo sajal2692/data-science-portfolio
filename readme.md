@@ -7,8 +7,8 @@ For a more visually pleasant experience for browsing the portfolio, check out [s
 
 _Note: Data used in the projects (accessed under data directory) is for demonstration purposes only._
 
-## Instructions for Python Notebooks
-1. Install dependencies using requirements.txt (requires Python 3+).
+## Instructions for Running Python Notebooks Locally
+1. Install dependencies using requirements.txt.
 2. Run notebooks as usual by using a jupyter notebook server, Vscode etc.
 
 ## Contents
