@@ -21,9 +21,12 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 
 - ### Natural Language Processing
 
-	- [3-way Sentiment Analysis for Tweets](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine.
+	- [Disaster Message Classifier](https://github.com/sajal2692/disaster-message-classifier): A multiclass classification model to predict the categories of a disaster message. Includes an ETL pipeline for data processing, a ML pipeline to train the model, and a web app, with visualizations, where the model can be used to classify messages. _Tools: NLTK, Scikit-learn, XGBoost, Flask, Plotly_
+
+	- [3-way Sentiment Analysis for Tweets](https://github.com/sajal2692/data-science-portfolio/blob/master/3-Way%20Sentiment%20Analysis%20for%20Tweets.ipynb): 3-way polarity (positive, negative, neutral) classification system for tweets, without using NLTK's sentiment analysis engine. 
 
 	- [Cross language Information Retrieval](https://github.com/sajal2692/data-science-portfolio/blob/master/Cross%20Language%20Information%20Retrieval.ipynb): Cross language information retrieval system (CLIR) which, given a query in German, searches text documents written in English.
+
 
 	_Tools: NLTK, scikit_
 
@@ -59,10 +62,6 @@ _Note: Data used in the projects (accessed under data directory) is for demonstr
 I also dabble in all other kinds of technology. You can find a general portfolio [here](https://github.com/sajal2692/general-portfolio/blob/master/README.md).
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at contact@sajalsharma.com. 
-
-### Python 2 to Python 3
-
-Currently, most (if not all) of the project notebooks use Python 2. I'm currently in the process of updating these to Python 3. Estimated time of completion of these updates is Q1 2022. Contributions for these version updates are welcome. :)
 
 ### Support My Work
 
