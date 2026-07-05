@@ -1,0 +1,38 @@
+[project]
+name = "data-science-portfolio"
+version = "2.0.0"
+description = "A portfolio of data science projects, modernized to run on a current Python stack."
+readme = "readme.md"
+requires-python = ">=3.14"
+license = { text = "MIT" }
+dependencies = [
+    # Core scientific stack
+    "numpy>=2.2",
+    "pandas>=2.2",
+    "scipy>=1.14",
+    "scikit-learn>=1.5",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    # NLP  (gensim intentionally omitted: no cp314 wheel as of 2026-07 and its source
+    # build fails on Python 3.14; the sentiment notebook's word2vec use is reimplemented in numpy)
+    "nltk>=3.9",
+    # Finance data (replaces the dead pandas-datareader Yahoo backend)
+    "yfinance>=0.2.50",
+    # Deep learning (MNIST notebook, rewritten in PyTorch)
+    "torch>=2.5",
+    "torchvision>=0.20",
+    # Utilities
+    "pillow>=10.4",
+    "tqdm>=4.66",
+    "requests>=2.32",
+    "lxml>=5.3",
+    # Jupyter
+    "jupyterlab>=4.2",
+    "nbconvert>=7.16",
+    "ipykernel>=6.29",
+    "ipywidgets>=8.1",
+]
+
+[tool.uv]
+# This repo is a collection of notebooks, not an installable package.
+package = false
