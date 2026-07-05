@@ -16,6 +16,8 @@ dependencies = [
     # NLP  (gensim intentionally omitted: no cp314 wheel as of 2026-07 and its source
     # build fails on Python 3.14; the sentiment notebook's word2vec use is reimplemented in numpy)
     "nltk>=3.9",
+    # transformer baseline for the sentiment notebook (zero-shot twitter-roberta)
+    "transformers>=4.44",
     # Finance data (replaces the dead pandas-datareader Yahoo backend)
     "yfinance>=0.2.50",
     # Deep learning (MNIST notebook, rewritten in PyTorch)
