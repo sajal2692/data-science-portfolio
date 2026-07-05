@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of each month (link check)
+
+jobs:
+  notebooks:
+    name: Execute notebooks
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up uv (Python 3.14)
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.14"
+          enable-cache: true
+      - name: Install dependencies
+        run: uv sync
+      - name: Execute CI-safe notebooks
+        run: uv run python .github/ci_execute.py
+
+  links:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link check (external URLs)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Skip the repo's own blob links (validated by the notebook job and
+          # dependent on merge state); check the external links that can rot.
+          args: >-
+            --no-progress
+            --exclude 'github\.com/sajal2692/data-science-portfolio/blob'
+            readme.md
+          fail: true
