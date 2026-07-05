@@ -11,3 +11,6 @@ __pycache__/
 
 # uv / virtual environments
 .venv/
+
+# Downloaded datasets (fetched on run, not vendored)
+data/mnist/
