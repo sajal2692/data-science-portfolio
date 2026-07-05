@@ -45,7 +45,7 @@ def distribution(data, transformed = False):
             fontsize = 16, y = 1.03)
 
     fig.tight_layout()
-    fig.show()
+    pl.show()
 
 
 def evaluate(results, accuracy, f1):
@@ -72,10 +72,10 @@ def evaluate(results, accuracy, f1):
             for i in np.arange(3):
                 
                 # Creative plot code
-                ax[j//4, j%3].bar(i+k*bar_width, results[learner][i][metric], width = bar_width, color = colors[k])
-                ax[j//4, j%3].set_xticks([0.45, 1.45, 2.45])
-                ax[j//4, j%3].set_xticklabels(["1%", "10%", "100%"])
-                ax[j//4, j%3].set_xlabel("Training Set Size")
+                ax[j//3, j%3].bar(i+k*bar_width, results[learner][i][metric], width = bar_width, color = colors[k])
+                ax[j//3, j%3].set_xticks([0.45, 1.45, 2.45])
+                ax[j//3, j%3].set_xticklabels(["1%", "10%", "100%"])
+                ax[j//3, j%3].set_xlabel("Training Set Size")
                 ax[j//3, j%3].set_xlim((-0.1, 3.0))
     
     # Add unique y-labels
