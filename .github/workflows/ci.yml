@@ -1,0 +1,25 @@
+name: Link check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of each month
+
+jobs:
+  links:
+    name: Check external links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Skip the repo's own blob links (they depend on merge state); check
+          # the external links that can rot.
+          args: >-
+            --no-progress
+            --exclude 'github\.com/sajal2692/data-science-portfolio/blob'
+            readme.md
+          fail: true

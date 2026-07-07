@@ -1,3 +1,16 @@
+# OS / editor cruft
 .DS_Store
+
+# Python
 __pycache__/
-**/__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# uv / virtual environments
+.venv/
+
+# Downloaded datasets (fetched on run, not vendored)
+data/mnist/
