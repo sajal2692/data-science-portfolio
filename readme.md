@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-> **This is an archive.** These projects date from the start of my data-science career (around 2016). I keep the repository as a record of that early work — and, as of 2026, I have modernized it so every notebook runs top-to-bottom on a current **Python 3.14** stack. For my current work in AI engineering (LLM agents, RAG, and applied ML), see **[sajalsharma.com](https://sajalsharma.com)**.
+> These are data-science projects I built early in my career (around 2016). If you're starting out — learning the fundamentals or putting together your own portfolio — I hope you find them a useful reference. As of 2026 I've refreshed the whole repository so every notebook still runs top-to-bottom on a current **Python 3.14** stack. For my current work in AI engineering (LLM agents, RAG, and applied ML), see **[sajalsharma.com](https://sajalsharma.com)**.
 
 A collection of data-science projects — completed for academic, self-learning, and hobby purposes — presented as Jupyter notebooks, plus a few R analyses published on RPubs.
 
@@ -77,7 +77,7 @@ Most notebooks read the small datasets under `data/`. Two fetch their data on fi
 
 ## What I'd do differently in 2026
 
-This repository is a fair snapshot of an early-career data-science portfolio: a lot of course exercises and clean, well-behaved datasets. Modernizing it a decade later, here is what I would change if I were starting today — and what this refresh reflects:
+Starting out, a portfolio like this — course exercises and clean, well-behaved datasets — is a perfectly good place to begin. Revisiting it a decade later, here is what I'd do differently with more experience, and what this refresh reflects:
 
 - **Reproducibility first.** Pin the environment (this now uses `uv` and a lockfile), seed every model, and vendor or cache the data. A large part of this update was simply making runs reproducible; unseeded models and dead data URLs age badly.
 - **Evaluate honestly.** On imbalanced data, accuracy hides what matters — report per-class precision/recall (the loan-repayment notebook now does), and never tune on the test set (the KNN notebook now selects K by cross-validation).
